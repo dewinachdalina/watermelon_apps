@@ -1,7 +1,8 @@
 //global resources
 export 'package:flutter/material.dart';
+export 'package:flutter_vision/flutter_vision.dart';
 export 'package:get/get.dart';
-export 'package:tflite/tflite.dart';
+export 'package:image_picker/image_picker.dart';
 //services
 
 //controller
