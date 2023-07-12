@@ -56,14 +56,22 @@ class _kematanganState extends State<kematangan> {
             children: [
               TextButton(
                 onPressed: pickImage,
+                style: TextButton.styleFrom(
+                  // ignore: deprecated_member_use
+                  primary: const Color(0xff40652e),
+                ),
                 child: const Text("Pick image"),
               ),
               TextButton(
                 onPressed: snapImage,
+                style: TextButton.styleFrom(
+                  // ignore: deprecated_member_use
+                  primary: const Color(0xff40652e),
+                ),
                 child: const Text("Camera"),
               ),
               ElevatedButton(
-                style: ButtonStyle(
+                style: const ButtonStyle(
                     backgroundColor:
                         MaterialStatePropertyAll(Color(0xff40652e))),
                 onPressed: yoloOnImage,
