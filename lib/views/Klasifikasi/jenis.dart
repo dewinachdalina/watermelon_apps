@@ -41,7 +41,7 @@ class JenisPages extends StatelessWidget {
                     top: 0 * fem,
                     child: Align(
                       child: SizedBox(
-                        width: 340 * fem,
+                        width: 318 * fem,
                         height: 250 * fem,
                         child: Container(
                           decoration: BoxDecoration(
