@@ -40,7 +40,7 @@ class MainPages extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => const MatangPages()),
+                          builder: (context) => const JenisPages()),
                     );
                   },
                   style: ElevatedButton.styleFrom(
