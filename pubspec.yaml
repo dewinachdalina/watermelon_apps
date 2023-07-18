@@ -68,8 +68,8 @@ flutter:
   assets:
   - lib/Image/Logo.png
   - lib/Image/bg1.png
-  - assets/kematangbest-fp16.tflite
-  - assets/kematang.txt
+  - assets/kematangan.tflite
+  - assets/kematangan.txt
   - assets/jenisbest-fp16.tflite
   - assets/jenis.txt
   #   - images/a_dot_ham.jpeg

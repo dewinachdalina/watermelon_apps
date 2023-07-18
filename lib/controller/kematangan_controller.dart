@@ -87,8 +87,8 @@ class _kematanganState extends State<kematangan> {
 
   Future<void> loadYoloModel() async {
     await vision.loadYoloModel(
-        labels: 'assets/kematang.txt',
-        modelPath: 'assets/kematangbest-fp16.tflite',
+        labels: 'assets/kematangan.txt',
+        modelPath: 'assets/kematangan.tflite',
         modelVersion: "yolov5",
         numThreads: 2,
         useGpu: true);
