@@ -88,7 +88,7 @@ class _jenisState extends State<jenis> {
   Future<void> loadYoloModel() async {
     await vision.loadYoloModel(
         labels: 'assets/jenis.txt',
-        modelPath: 'assets/jenisbest-fp16.tflite',
+        modelPath: 'assets/jenis.tflite',
         modelVersion: "yolov5",
         numThreads: 2,
         useGpu: true);

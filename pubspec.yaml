@@ -70,7 +70,7 @@ flutter:
   - lib/Image/bg1.png
   - assets/kematangan.tflite
   - assets/kematangan.txt
-  - assets/jenisbest-fp16.tflite
+  - assets/jenis.tflite
   - assets/jenis.txt
   #   - images/a_dot_ham.jpeg
 
