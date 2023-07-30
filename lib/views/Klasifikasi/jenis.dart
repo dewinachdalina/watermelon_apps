@@ -61,11 +61,11 @@ class JenisPages extends StatelessWidget {
                         width: 310 * fem,
                         height: 258 * fem,
                         child: Text(
-                          'Perhatian!!\nPijit Tombol dibawah ini. Ambil gambar dari galeri atau kamera. Arahkan pada objek yang akan dideteksi',
+                          'Perhatian!!\nKetuk tombol dibawah ini. Ambil gambar dari galeri atau kamera. Arahkan pada objek buah yang akan dideteksi.',
                           textAlign: TextAlign.center,
                           style: SafeGoogleFont(
                             'Inknut Antiqua',
-                            fontSize: 20 * ffem,
+                            fontSize: 19 * ffem,
                             fontWeight: FontWeight.w400,
                             height: 2.5775 * ffem / fem,
                             color: Color(0xffa2f271),
