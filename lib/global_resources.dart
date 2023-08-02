@@ -12,10 +12,6 @@ export 'package:image_picker/image_picker.dart';
 //controller
 export 'package:watermelon_apps/controller/jenis_controller.dart';
 export 'package:watermelon_apps/controller/kematangan_controller.dart';
-//helper
-
-//routes
-export 'package:watermelon_apps/routes/routes_page.dart';
 //services
 export 'package:watermelon_apps/services/utils.dart';
 //views
